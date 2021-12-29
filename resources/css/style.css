@@ -1,13 +1,26 @@
 body {
   font-family: "Inter", sans-serif;
+  padding: 10px 17px;
 }
 
 h1 {
   font-size: 25px;
 }
 
+.mainGrid {
+  display: grid;
+  grid-gap: 25px;
+}
+
 .mainGrid__box {
   background-color: #f0f2fa;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hastag {
+  width: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */
