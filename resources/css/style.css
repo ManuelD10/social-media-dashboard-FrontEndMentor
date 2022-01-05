@@ -30,6 +30,7 @@ strong {
   border-radius: 5px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .fbCard {
@@ -41,8 +42,8 @@ strong {
 }
 
 .igCard {
-  border-top: 4px solid linear-gradient(#fdc468, #df4996);
-  border-color: -moz-linear-gradient(top, #555555, #111111);
+  border-top: 4px solid transparent;
+  background: linear-gradient(#f0f2fa, #f0f2fa) padding-box, linear-gradient(to right, #fdc468, #df4996) border-box;
 }
 
 .ytCard {
@@ -50,7 +51,57 @@ strong {
 }
 
 .hastag {
-  width: 200px;
+  display: flex;
+  margin-top: 30px;
+  color: #63687e;
+  font-weight: 700;
+}
+
+.hastag p {
+  margin: 0px;
+  margin-left: 7px;
+}
+
+.ctn-follow {
+  text-align: center;
+}
+
+.number {
+  font-size: 60px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.followers {
+  margin-top: 0px;
+  color: #63687e;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 6px;
+}
+
+.ctn-increase {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.ctn-increase img {
+  height: 4px;
+}
+
+.ctn-increase p {
+  margin: 0px;
+  color: #1db489;
+  font-size: 14px;
+  margin-left: 5px;
+  font-weight: 700;
+}
+
+.ctn-increase__down p {
+  color: #dc414c;
 }
 
 /*# sourceMappingURL=style.css.map */
