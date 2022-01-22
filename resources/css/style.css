@@ -104,4 +104,30 @@ strong {
   color: #dc414c;
 }
 
+.ctnOverview {
+  background: #f0f2fa;
+  border-radius: 5px;
+  padding: 14px;
+}
+
+.overviewInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.overviewInfo__img {
+  height: 20px;
+}
+
+.overviewInfo p {
+  font-weight: 700;
+  color: #63687e;
+}
+
+.overviewInfo__number {
+  color: black;
+  font-size: 40px;
+  margin: 0px;
+}
+
 /*# sourceMappingURL=style.css.map */
