@@ -7,6 +7,10 @@ h1 {
     font-size: 25px;
     margin-bottom: -9px;
 }
+h2{
+    margin-top: 64px;
+    color: hsl(228, 12%, 44%);
+}
 
 strong {
     color: hsl(228, 12%, 44%);
@@ -111,9 +115,13 @@ strong {
     border-radius: 5px;
     padding: 14px;
 }
+.ctnOverview--marginTop{
+    margin-top: 16px;
+}
 .overviewInfo{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .overviewInfo__img{
@@ -126,7 +134,20 @@ strong {
 }
 
 .overviewInfo__number{
-    color: black;
+    color:  hsl(230, 17%, 14%) !important;
     font-size: 40px;
     margin: 0px;
+}
+.overviewInfo__percent{
+    display: flex;
+    align-items: center;
+}
+.overviewInfo__percent img{
+    margin-right: 3px;
+}
+.overviewInfo__percent .up{
+    color: hsl(163, 72%, 41%);
+}
+.overviewInfo__percent .down{
+    color: hsl(356, 69%, 56%);
 }

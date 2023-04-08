@@ -8,16 +8,21 @@ h1 {
   margin-bottom: -9px;
 }
 
+h2 {
+  margin-top: 64px;
+  color: hsl(228, 12%, 44%);
+}
+
 strong {
-  color: #63687e;
+  color: hsl(228, 12%, 44%);
 }
 
 .ctnSwitch {
-  border-top: 1px solid #63687e;
+  border-top: 1px solid hsl(228, 12%, 44%);
   margin-top: 25px;
   margin-bottom: 35px;
   font-weight: 700;
-  color: #63687e;
+  color: hsl(228, 12%, 44%);
 }
 
 .mainGrid {
@@ -26,7 +31,7 @@ strong {
 }
 
 .mainGrid__box {
-  background-color: #f0f2fa;
+  background-color: hsl(227, 47%, 96%);
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -34,26 +39,26 @@ strong {
 }
 
 .fbCard {
-  border-top: 4px solid #198ff5;
+  border-top: 4px solid hsl(208, 92%, 53%);
 }
 
 .twCard {
-  border-top: 4px solid #1ca0f2;
+  border-top: 4px solid hsl(203, 89%, 53%);
 }
 
 .igCard {
   border-top: 4px solid transparent;
-  background: linear-gradient(#f0f2fa, #f0f2fa) padding-box, linear-gradient(to right, #fdc468, #df4996) border-box;
+  background: linear-gradient(hsl(227, 47%, 96%), hsl(227, 47%, 96%)) padding-box, linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%)) border-box;
 }
 
 .ytCard {
-  border-top: 4px solid #c4032a;
+  border-top: 4px solid hsl(348, 97%, 39%);
 }
 
 .hastag {
   display: flex;
   margin-top: 30px;
-  color: #63687e;
+  color: hsl(228, 12%, 44%);
   font-weight: 700;
 }
 
@@ -75,7 +80,7 @@ strong {
 
 .followers {
   margin-top: 0px;
-  color: #63687e;
+  color: hsl(228, 12%, 44%);
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 6px;
@@ -94,14 +99,14 @@ strong {
 
 .ctn-increase p {
   margin: 0px;
-  color: #1db489;
+  color: hsl(163, 72%, 41%);
   font-size: 14px;
   margin-left: 5px;
   font-weight: 700;
 }
 
 .ctn-increase__down p {
-  color: #dc414c;
+  color: hsl(356, 69%, 56%);
 }
 
 .ctnOverview {
@@ -110,9 +115,14 @@ strong {
   padding: 14px;
 }
 
+.ctnOverview--marginTop {
+  margin-top: 16px;
+}
+
 .overviewInfo {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .overviewInfo__img {
@@ -125,9 +135,26 @@ strong {
 }
 
 .overviewInfo__number {
-  color: black;
+  color: hsl(230, 17%, 14%) !important;
   font-size: 40px;
   margin: 0px;
+}
+
+.overviewInfo__percent {
+  display: flex;
+  align-items: center;
+}
+
+.overviewInfo__percent img {
+  margin-right: 3px;
+}
+
+.overviewInfo__percent .up {
+  color: hsl(163, 72%, 41%);
+}
+
+.overviewInfo__percent .down {
+  color: hsl(356, 69%, 56%);
 }
 
 /*# sourceMappingURL=style.css.map */
