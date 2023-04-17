@@ -157,4 +157,23 @@ strong {
   color: hsl(356, 69%, 56%);
 }
 
+@media (min-width: 600px) {
+  .mainGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .mainCtnOverview {
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .ctnOverview--marginTop {
+    margin-top: 0px;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    padding: 32px 164px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
